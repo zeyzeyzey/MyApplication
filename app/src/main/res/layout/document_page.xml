@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="第二页  你好"-->
+        <!--/>-->
+    <TextView
+        android:id="@+id/zhi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <!--<TableLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/white"-->
+        <!-->-->
+        <!--<TableRow>-->
+            <!--<TextView-->
+                <!--android:id="@+id/text1"-->
+                <!--android:text="nihao0"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="60px"-->
+                <!--android:layout_height="100px"-->
+                <!--/>-->
+        <!--</TableRow>-->
+        <!--<TableRow-->
+            <!--android:background="@color/blue"-->
+            <!--android:textAlignment="center">-->
+            <!--<TextView-->
+                <!--android:text="nihao1"-->
+                <!--android:layout_height="100px"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="60px"-->
+                <!--android:background="@color/red"-->
+                <!--/>-->
+        <!--</TableRow>-->
+        <!--<TableRow>-->
+            <!--<TextView-->
+                <!--android:layout_height="100px"-->
+                <!--android:text="nihao2"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="60px"-->
+                <!--/>-->
+        <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+</LinearLayout>
+
+
