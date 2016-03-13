@@ -104,8 +104,10 @@ public class MainActivity extends AppCompatActivity {
                 final Intent intent = new Intent(MainActivity.this, documentActivity.class);
 
                 intent.setClass(MainActivity.this, documentActivity.class);
-                namestr = username.getText().toString();
-                pwdstr = pwd.getText().toString();
+//                namestr = username.getText().toString();
+//                pwdstr = pwd.getText().toString();
+                namestr = "weiquanmiao";
+                pwdstr = "wqm8215075";
                 documentActivity.username = namestr;
                 documentActivity.pwd = pwdstr;
 

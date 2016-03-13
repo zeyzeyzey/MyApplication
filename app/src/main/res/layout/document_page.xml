@@ -8,16 +8,12 @@
         android:id="@+id/action_bar"
         layout="@layout/actionbar"
         ></include>
+
     <!--<TextView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="第二页  你好"-->
+        <!--android:id="@+id/zhi"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
         <!--/>-->
-    <TextView
-        android:id="@+id/zhi"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
     <!--<TableLayout-->
         <!--android:layout_width="fill_parent"-->
         <!--android:layout_height="match_parent"-->
@@ -54,6 +50,7 @@
         <!--</TableRow>-->
     <!--</TableLayout>-->
     <ListView
+        android:id="@+id/new_taskList"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
